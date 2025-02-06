@@ -3,9 +3,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/proud-bear-11")
+@app.route("/api/v1/status")
 def home():
-    return "health: All systems operational"
+    return "info: Everything looks good"
 
 if __name__ == "__main__":
     app.run(debug=True)
