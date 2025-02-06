@@ -3,9 +3,9 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/proud-bear-11")
 def home():
-    return "Hello, Jenkins Multi-Stage Pipeline!"
+    return "health: All systems operational"
 
 if __name__ == "__main__":
     app.run(debug=True)
